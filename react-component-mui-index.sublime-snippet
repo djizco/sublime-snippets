@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+import { withStyles } from '@material-ui/core/styles';
+
+import styles from './styles';
+
+import ${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/} from './${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/}';
+
+export default withStyles(styles)(${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/});
+]]></content>
+  <tabTrigger>rcmi</tabTrigger>
+  <description>React Component with MUI Styles File</description>
+
+</snippet>

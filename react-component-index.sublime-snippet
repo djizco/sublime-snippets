@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+import ${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/} from './${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/}';
+
+export default ${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/};
+]]></content>
+  <tabTrigger>rci</tabTrigger>
+  <description>React Component Index File</description>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+export default function ${TM_FILENAME/(.+)\..+/$1/}() {
+  return (
+    <div>${TM_FILENAME/(.+)\..+/$1/}</div>
+  );
+}
+
+${TM_FILENAME/(.+)\..+/$1/}.propTypes = {
+
+};
+
+${TM_FILENAME/(.+)\..+/$1/}.defualtProps = {
+
+};
+]]></content>
+  <tabTrigger>rfc</tabTrigger>
+  <description>React Functional Component</description>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+export default class ${TM_FILENAME/(.+)\..+/$1/} extends Component {
+  state = {
+
+  };
+
+  static propTypes = {
+
+  };
+
+  static defaultProps = {
+
+  };
+
+  render() {
+    return (
+      <div>${TM_FILENAME/(.+)\..+/$1/}</div>
+    );
+  }
+}
+]]></content>
+  <tabTrigger>rcc</tabTrigger>
+  <description>React Class Component</description>
+</snippet>
