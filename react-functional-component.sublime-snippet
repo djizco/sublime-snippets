@@ -13,7 +13,7 @@ ${TM_FILENAME/(.+)\..+/$1/}.propTypes = {
 
 };
 
-${TM_FILENAME/(.+)\..+/$1/}.defualtProps = {
+${TM_FILENAME/(.+)\..+/$1/}.defaultProps = {
 
 };
 ]]></content>
