@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mui/styles';
 
 import styles from './styles';
 
