@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+type ${TM_FILENAME/(.+)\..+/$1/}Props {
+
+}
+
+export default function ${TM_FILENAME/(.+)\..+/$1/}({
+
+}: ${TM_FILENAME/(.+)\..+/$1/}Props) {
+  return (
+    <div>${TM_FILENAME/(.+)\..+/$1/}</div>
+  );
+}
+]]></content>
+  <tabTrigger>rfcts</tabTrigger>
+  <description>React Functional Component Typescript</description>
+  <scope>source.ts, source.tsx</scope>
+</snippet>

@@ -25,4 +25,5 @@ export default class ${TM_FILENAME/(.+)\..+/$1/} extends Component {
 ]]></content>
   <tabTrigger>rcc</tabTrigger>
   <description>React Class Component</description>
+  <scope>source.js, source.jsx</scope>
 </snippet>

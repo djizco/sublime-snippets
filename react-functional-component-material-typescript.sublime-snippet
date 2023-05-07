@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import { useStyles } from './styles';
+
+type ${TM_FILENAME/(.+)\..+/$1/}Props {
+
+}
+
+export default function ${TM_FILENAME/(.+)\..+/$1/}({
+
+}: ${TM_FILENAME/(.+)\..+/$1/}Props) {
+  const { classes } = useStyles();
+  return (
+    <div>${TM_FILENAME/(.+)\..+/$1/}</div>
+  );
+}
+]]></content>
+  <tabTrigger>rfcmts</tabTrigger>
+  <description>React Functional Component Material UI Typescript</description>
+  <scope>source.ts, source.tsx</scope>
+</snippet>
