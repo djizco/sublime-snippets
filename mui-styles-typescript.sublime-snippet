@@ -1,16 +1,17 @@
 <snippet>
   <content><![CDATA[
+import { Theme } from '@mui/material';
 import { makeStyles } from 'tss-react/mui';
 
-const styles = (theme) => ({
+const styles = (theme: Theme) => ({
 
-});
+}) as const;
 
 export default styles;
 
 export const useStyles = makeStyles()(styles);
 ]]></content>
   <tabTrigger>muis</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.ts</scope>
   <description>Material UI Styles</description>
 </snippet>

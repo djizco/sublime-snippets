@@ -22,6 +22,6 @@ ${TM_FILENAME/(.+)\..+/$1/}.defaultProps = {
 };
 ]]></content>
   <tabTrigger>rfcm</tabTrigger>
-  <scope>source.js, sourece.jsx</scope>
+  <scope>source.js, source.jsx</scope>
   <description>React Functional Component Material UI</description>
 </snippet>
